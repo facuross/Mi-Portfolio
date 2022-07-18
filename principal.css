@@ -31,9 +31,17 @@ a.nav-link {
     margin-left: 2rem;
 }
 
+ul.icons{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin: 0;
+}
+
 #icons {
-    margin-left: 0;
-    
+    margin-left: 1rem;
+    font-size: 1.05rem;
+    align-items: center;
 }
 
 a.nav-link:hover {
@@ -58,4 +66,28 @@ i.bi:hover {
 .btn-login:hover {
     background-color: #ffff;
     color: black;
+}
+
+/* div.container {
+    display: flex;
+}
+ */
+.img-banner {
+    position: absolute;
+    border: none;
+    margin: 0.5rem;
+    padding: 0;
+  
+}
+
+.img-profile {
+    position: absolute;
+    border-radius: 6rem;
+    border: gray 1px solid;
+    width: 12rem;
+    height: 12rem;
+    margin-left: 3rem;
+    margin-top: 13rem;
+
+
 }
